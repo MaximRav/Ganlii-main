@@ -1,0 +1,82 @@
+.ganListLogo {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Secular One";
+  color: #ffa800;
+}
+
+.alltable {
+
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.ganimList {
+  width: 70%;
+  height: 80%;
+  overflow: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffa800;
+}
+
+.ganimList th td {
+  width: 70%;
+  height: 10px;
+}
+
+.ganimList th,
+.ganimList td {
+  font-family: "Varela Round";
+  text-align: center;
+  font-size: 20px;
+  border-color: #ffe3a2;
+  padding: 8px;
+
+}
+
+.ganimList th {
+  background-color: #ffe3a2;
+  color: #885a4a;
+  font-size: 24px;
+  border-style: solid;
+  border-width: 2px;
+
+}
+
+
+.ganimHader th {
+  background-color: #ffa800;
+  border-style: solid;
+  border-width: 100%;
+  border-color: #ffa800;
+}
+
+.sortList {
+  font-family: "Varela Round"
+    display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #ffa800;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffa800;
+  text-align: right;
+  width: 15%;
+  font-size: 20px;
+}
+
+.sortList li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.sortList ul {
+  background-color: #FFE3A2;
+}
+
+.sortList h4 {
+  border-bottom-style: solid;
+  border-bottom-color: #ffa800;
+}
